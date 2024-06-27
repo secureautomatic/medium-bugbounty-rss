@@ -35,7 +35,7 @@ jobs:
           twitterAccessTokenSecret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }}
           # Discord settings
           discordEnable: true
-          discordPostFormat: "{title}\n\n{link}"
+          discordPostFormat: "{title}\n{link}"
           discordWebhookUrl: ${{ secrets.DISCORD_WEBHOOK_URL }}
           # Slack settings
           slackEnable: false
