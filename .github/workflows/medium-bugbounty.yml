@@ -36,7 +36,7 @@ jobs:
           # Discord settings
           discordEnable: true
           discordPostFormat: "{title}\n\n{link}"
-          discordWebhookUrl: 'DISCORD_WEBHOOK_URL'
+          discordWebhookUrl: ${{ secrets.DISCORD_WEBHOOK_URL }}
           # Slack settings
           slackEnable: false
           slackPostFormat: "New post: {title}\n\n{link}"
