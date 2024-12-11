@@ -43,7 +43,7 @@ jobs:
           slackWebhookUrl: 'DISCORD_WEBHOOK_URL'
           # Bluesky settings
           blueskyEnable: true
-          blueskyPostFormat: "{title}\n{link}\n\n#bugbounty #bugbountytips #bugbountytip"
+          blueskyPostFormat: "{title}\n\n{link}"
           blueskyHandle: 'securitycipher.bsky.social'
           blueskyAppPassword: ${{ secrets.BLUESKY_APP_PASSWORD }}
           blueskyOwnerHandle: 'securitycipher.bsky.social'
